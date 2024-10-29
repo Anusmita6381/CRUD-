@@ -1,0 +1,158 @@
+*{
+    margin: 0;;
+    padding: 0;
+}
+body{
+    background-image:url(img-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.head{
+    color: white;
+    font-size: 20px;
+}
+.crud{
+    font-size: 20px;
+    position: relative;
+    top: 9px;
+}
+.side{
+    height: 40px;
+    width:1500px ;
+    background-color: black;
+}
+.active{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    right: -1000px;
+    padding: 20px;
+   top: -15px;
+}
+.active:hover{
+    color: rgb(61, 195, 150);
+    font-size: 15px;
+}
+
+.create {
+    position: relative;
+    left: 800px;
+    top:-13px;
+    font-size: 20px;
+}
+.update{
+    position: relative;
+    left: 900px;
+    top:-13px;
+    font-size: 20px;
+}
+.get{
+    position: relative;
+    left: 1000px;
+    top:-13px;
+    font-size: 20px;
+}
+.main{
+    height: 500px;
+    margin: 0;
+    width: 800px;
+    background-color: rgb(228, 229, 236);
+    position: relative;
+    top: 35px;
+    left: 240px;
+
+}
+.student {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    left:250px;
+    top:30px;
+    font-size:25px;
+}
+label{
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 800;
+    position: relative;
+    left: 25px;
+    top: 15px;
+}
+#sub{
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    left: 380px;
+    top: 70px;
+}
+button{
+    background-color: rgba(35, 206, 129, 0.816);
+    height: 35px;
+    position: absolute;
+    top:350px;
+    left: 27px;
+    width: 350px;
+    border-radius: 30px;
+}
+
+input{
+    height: 30px;
+    width: 350px;
+    border-radius: 5px;
+    /* padding:3px; */
+}
+#description{
+    height:85px;
+}
+#book{
+    height: 180px;
+    position: relative;
+    top: 200px;
+    left: 30px; /* width: 100px; */
+    display:inline-block;
+    border-radius: 10px;
+}
+#foot{
+   
+    height:70px;
+    color: white;
+    position: relative;
+    top: 80px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+}
+#inner{
+    position: relative;
+    top:-6px;
+}
+.pri{
+    display:flex ;
+  
+}
+.p1{
+  position: relative;
+  left: -50px;
+  top: 10px;
+}
+.p2{
+    position: relative;
+    left: -0px;
+    top: 10px;
+}
+.p3{
+    position: relative;
+    left: 70px;
+    top: 10px;
+}
+button:hover{
+    background-color: rgb(73, 139, 133);
+
+
+}
+input:hover{
+    border-color: rgb(70, 103, 81);
+    
+}

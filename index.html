@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="side">
+            <div class="head">
+                <p class="crud">CRUD App</p> 
+                <a class="active" href="index.html">Create</a>
+                <a  class="active" href="update.html">Update</a>
+                <a class="active"   href="get.html">Get</a>
+            </div>
+        </div>
+
+        <div class="main">
+            <img src="img-2.jpg" alt="Book image" id="book">
+            <p class="student"><b>Student Registration Form</b></p>
+
+            <!-- Form tag added to wrap input fields -->
+            <form id="sub">
+                <label for="name">Name<br>
+                    <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                </label>
+                <label for="email">Email<br>
+                    <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                </label>
+                <label for="college">College<br>
+                    <input type="text" name="college" id="college" placeholder="Enter your college name" required>
+                </label>
+                <br><br>
+                <label for="description">Description<br>
+                    <input type="text" name="description" id="description" placeholder="Enter a description" required>
+                </label>
+                <br>
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </header>
+
+    <footer>
+        <div id="foot">
+            <div id="inner">
+                <p>@2024 CRUD App. All Rights Reserved<br></p>
+                <div class="pri">
+                    <p class="p1">Privacy Policy</p>
+                    <p class="p2">Terms of Service</p>
+                    <p class="p3">Contact Us</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
